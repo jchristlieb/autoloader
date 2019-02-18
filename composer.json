@@ -1,0 +1,18 @@
+{
+  "name": "jan/autoloader",
+  "description": "Just an example for PSR-4 implementation",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jan Christlieb",
+      "email": "mail@janchristlieb.de"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Project\\": "src"
+    }
+  }
+}
